@@ -13,6 +13,7 @@ const ENDPOINT = "cars.json";
 
 const renderCarsCards = (cars) => {
   const { brand, models } = cars;
+
   const outputBrand = document.createElement("h2");
   outputBrand.textContent = brand;
   outputBrand.style.textAlign = "center";
